@@ -1,0 +1,135 @@
+
+
+/*#highlight
+{
+    white-space: pre;
+}*/
+
+
+#loginfieldset,#homepage,#registrationfieldset
+{
+    border: solid 4px limegreen;
+    border-radius: 18px;
+    padding-left: 12px;
+    position: relative;
+    font-size: 130%;
+    margin-left: 60%;
+    /*margin-right: 30%;*/
+    margin-top:  8%; 
+    width: 380px;
+    background: rgba(0,0,0,0.9);
+    text-align: center;
+   
+}
+
+legend
+{
+   padding-top:50px;
+    color:  white;
+    text-decoration-line:underline; 
+    
+}
+#loginbtn,#nextbtn,#registerbtn
+{
+    width: 150px;
+    margin-bottom: 10px;
+    border: solid 2px;
+    font-size: 90%;
+    font-family:serif;
+    border-radius: 12px;
+    
+}
+
+#nextbtn:hover,#loginbtn:hover,#registerbtn:hover{
+    background-color: limegreen; 
+}
+
+body
+{
+    background-image: url('../images/shopCart.jpg') ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    font-family:  cursive;
+}
+#logo
+{
+    text-align: center;
+}
+p,li
+{
+    font-size: 130%;
+}
+a
+{
+    text-decoration: none;
+    color: steelblue;
+}
+#logout
+{
+    position:fixed;
+    left: 80%;
+    top:  2%;
+}
+#loginresult
+{
+    font-size:16px;
+    font-color: red;
+    font-weight: bold;
+}
+
+.admin-option{
+    margin-top:100px;
+    background:rgba(0,0,0,0.9);
+   margin-left:500px;
+    width:450px;
+    height:auto;
+    text-align: center;
+    padding-bottom: 10px; 
+    padding-top:10px;
+    border-radius:10px;
+    
+    border: solid 4px limegreen;
+      
+    
+}
+
+.admin-sub:hover{
+    text-decoration: underline;
+    
+}
+.add-pro{
+    
+    background:rgba(0,0,0,0.9);
+   color:white;
+    height:300px;
+    width:400px;
+    /*margin-left:-400px;*/
+    
+    border-radius:10px;
+    border-color: limegreen;
+    border-width:thick;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.see-store{
+    margin-top:100px;
+    background:rgba(0,0,0,0.9);
+   margin-left:500px;
+    width:450px;
+    height:auto;
+    text-align: center;
+    padding-bottom: 10px; 
+    padding-top:10px;
+    border-radius:10px;
+    
+    border: solid 4px limegreen;
+      
+    
+}
+
+see-store-categories:hover{
+    
+    text-decoration: underline;
+    
+}

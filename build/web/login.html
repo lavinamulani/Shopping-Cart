@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+             <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="scripts/jquery.js">
+         </script>
+        <script type="text/javascript" src="scripts/login.js">
+         </script>
+         
+    </head>
+    <body>
+        <div id="logo">
+            <!--<img src="images/loginlogo3.png" ><br>-->
+         <img src="images/shopperscart.png" width="500" height="250" align="left" >
+</div>
+        
+        <fieldset id="loginfieldset"><legend>Login</legend><br>
+            <label style="color:limegreen;">Usertype</label><br> <select style="border-radius:10px;" name="usertype" id="usertype" >
+                <option>ADMIN</option>
+                <option>CUSTOMER</option>
+            </select>
+            <br>
+            <br>
+            <br> <input style="border-radius:20px; text-align: center; height:30px;" type="text" name="username" id="username" placeholder="Enter username">
+            <span id="span1"></span>
+            <br>
+            <br>
+            <br> <input style="border-radius:20px; text-align: center; height:30px;" type="password" name="password" id="password" placeholder="Enter password">
+            <span id="span2"></span>
+            <br>
+            <br>
+            <input type="button" value="Login" name="Login" id="loginbtn" onclick="connect()" ><br>
+            <span id="loginresult"></span><br>
+            
+        </fieldset>
+       
+    </body>
+</html>
